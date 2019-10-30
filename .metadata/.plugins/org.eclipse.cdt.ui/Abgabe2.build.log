@@ -1,0 +1,17 @@
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15724569934006822715575702780511.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/Abgabe2.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/Abgabe2.c: In function 'takt':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/Abgabe2.c:67:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/Abgabe2.c:50:6: warning: unused variable 'ms' [-Wunused-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/Abgabe2.c:49:6: warning: unused variable 's' [-Wunused-variable]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm/o-le-v7-g/Abgabe2_g
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/Abgabe2.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/Abgabe2.c:103:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/Abgabe2.c:104:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm/o-le-v7-g/Abgabe2_g    Abgabe2.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm'
