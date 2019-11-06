@@ -1,9 +1,0 @@
-"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15712396220613861610342260737293.tmp 
-C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
-make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/embedded/arm'
-C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
-make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/embedded/arm/o-le-v7-g'
-C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/embedded/arm/o-le-v7-g/embedded_g
-C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/embedded/arm/o-le-v7-g/embedded_g    embedded.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
-make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/embedded/arm/o-le-v7-g'
-make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/embedded/arm'

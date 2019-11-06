@@ -1,8 +1,0 @@
-"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730554650267304619746619111599.tmp 
-C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
-make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm'
-C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
-make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm/o-le-v7-g'
-make.exe[2]: Nothing to be done for `all'.
-make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm/o-le-v7-g'
-make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe2/arm'
