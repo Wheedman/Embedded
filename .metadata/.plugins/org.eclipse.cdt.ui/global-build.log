@@ -1267,3 +1267,399 @@ C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abg
 C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
 make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
 make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730585315483693213834334859725.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[2]: Nothing to be done for `all'.
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730587271072245186046966822608.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'waste_msecs':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:3: warning: implicit declaration of function 'oneSecMethod' [-Wimplicit-function-declaration]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: At top level:
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:16:6: warning: conflicting types for 'oneSecMethod' [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:3: note: previous implicit declaration of 'oneSecMethod' was here
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:17:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:33:4: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:40:4: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:46:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:47:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:68:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730587843381186601409121306760.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'waste_msecs':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:3: warning: implicit declaration of function 'oneSecMethod' [-Wimplicit-function-declaration]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: At top level:
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:16:6: warning: conflicting types for 'oneSecMethod' [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:3: note: previous implicit declaration of 'oneSecMethod' was here
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:17:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:31:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:34:4: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:41:4: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:47:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:48:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:69:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile1573059052470503840042807405209.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:36:4: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:43:4: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:49:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:72:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:54:1: warning: control reaches end of non-void function [-Wreturn-type]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730593292732878034176515283591.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:36:4: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:43:4: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:49:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:55:1: error: expected expression before '}' token
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:70:2: warning: passing argument 3 of 'pthread_create' from incompatible pointer type [enabled by default]
+In file included from C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:5:0:
+C:/qnx660/target/qnx6/usr/include/pthread.h:233:12: note: expected 'void * (*)(void *)' but argument is of type 'int * (*)(void *)'
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:73:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+cc: C:/qnx660/host/win32/x86/usr/lib/gcc/arm-unknown-nto-qnx6.6.0eabi/4.7.3/cc1 caught signal 1
+make.exe[2]: *** [Abgabe3.o] Error 1
+make.exe[2]: Target `all' not remade because of errors.
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: [all] Error 2 (ignored)
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile1573059340940563438005256729729.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:36:4: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:43:4: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:49:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:53:2: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:70:2: warning: passing argument 3 of 'pthread_create' from incompatible pointer type [enabled by default]
+In file included from C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:5:0:
+C:/qnx660/target/qnx6/usr/include/pthread.h:233:12: note: expected 'void * (*)(void *)' but argument is of type 'int * (*)(void *)'
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:73:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+/usr/bin/rm: cannot remove `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g': Permission denied
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[2]: *** [C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g] Error 1
+make.exe[2]: Target `all' not remade because of errors.
+make.exe[1]: [all] Error 2 (ignored)
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730594121258525270676476318055.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:43:4: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:49:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:53:2: warning: return makes pointer from integer without a cast [enabled by default]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:70:2: warning: passing argument 3 of 'pthread_create' from incompatible pointer type [enabled by default]
+In file included from C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:5:0:
+C:/qnx660/target/qnx6/usr/include/pthread.h:233:12: note: expected 'void * (*)(void *)' but argument is of type 'int * (*)(void *)'
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:73:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730594391184499152434266718455.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:49:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:70:2: warning: passing argument 3 of 'pthread_create' from incompatible pointer type [enabled by default]
+In file included from C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:5:0:
+C:/qnx660/target/qnx6/usr/include/pthread.h:233:12: note: expected 'void * (*)(void *)' but argument is of type 'int * (*)(void *)'
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:73:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730596024462331519817541181572.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:49:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:71:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730596868301108237780252268878.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:49:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:72:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730597253107458603029703185809.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:13:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:51:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:73:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730597840036277050068094281130.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:13:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:44:44: error: 'function' undeclared (first use in this function)
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:44:44: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:47:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:79:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:80:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+cc: C:/qnx660/host/win32/x86/usr/lib/gcc/arm-unknown-nto-qnx6.6.0eabi/4.7.3/cc1 caught signal 1
+make.exe[2]: *** [Abgabe3.o] Error 1
+make.exe[2]: Target `all' not remade because of errors.
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+make.exe[1]: [all] Error 2 (ignored)
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730598074476193193883552908702.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:13:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:51:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:73:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730599321193910442870240346038.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:13:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:73:3: warning: implicit declaration of function 'strerror' [-Wimplicit-function-declaration]
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730600936953400239066012172628.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:13:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:51:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:73:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730603741906550436654966034728.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:49:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:71:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:77:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730607724406068235708660456100.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:48:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:49:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:31:13: warning: unused variable 'i' [-Wunused-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:70:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:76:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730607876283341586097691842208.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:49:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:71:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:77:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat]
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730608125715864099881769977122.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[2]: Nothing to be done for `all'.
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730608739341436799324969011590.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[2]: Nothing to be done for `all'.
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730609942123737464653166001551.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[2]: Nothing to be done for `all'.
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+"C:\\qnx660\\host\\win32\\x86\\usr\\bin\\make.exe" -k CPULIST=arm VARIANTLIST=g all --file=C:/Users/HM-WIE~1/AppData/Local/Temp/QMakefile15730610187293079462911422102813.tmp 
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Carm -fMakefile all
+make.exe[1]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'
+C:/qnx660/host/win32/x86/usr/bin/make.exe -j 1 -Co-le-v7-g -fMakefile all
+make.exe[2]: Entering directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -c  -Wc,-Wall             -I. -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/le.v7 -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm -IC:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3 -IC:/qnx660/target/qnx6/usr/include    -EL      -g        -DVARIANT_le -DVARIANT_v7 -DVARIANT_g -DBUILDENV_qss  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c 
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'oneSecMethod':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:12:34: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'function':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:49:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:50:3: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'time_t' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c: In function 'main':
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:71:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat]
+C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/Abgabe3.c:77:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat]
+C:/qnx660/host/win32/x86/usr/bin/rm -f  C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g
+C:/qnx660/host/win32/x86/usr/bin/qcc -Vgcc_ntoarmv7 -Wl,--no-keep-memory     -o C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g/Abgabe3_g    Abgabe3.o   -L . -L C:/qnx660/target/qnx6/armle-v7/lib -L C:/qnx660/target/qnx6/armle-v7/usr/lib  -Wl,--rpath-link . -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/lib -Wl,--rpath-link C:/qnx660/target/qnx6/armle-v7/usr/lib    -EL      -g         
+make.exe[2]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm/o-le-v7-g'
+make.exe[1]: Leaving directory `C:/Users/hm-wiedman0/qnxMomenticsIDE/Abgabe3/arm'

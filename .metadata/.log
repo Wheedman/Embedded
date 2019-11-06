@@ -1998,3 +1998,95 @@ java.net.SocketTimeoutException: Read timed out
 
 !ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 17:29:47.290
 !MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 17:42:17.537
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 4 4 2019-11-06 17:45:38.226
+!MESSAGE Error waiting for log to be ready. Is the target accessible?
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at com.qnx.tools.ide.utils.target.TargetBinary.receiveResponse(TargetBinary.java:115)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.command(TargetServiceTrace.java:152)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.command(TargetServiceTrace.java:136)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.getStatus(TargetServiceTrace.java:442)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.waitForTimeLog(SystemProfilerLogger.java:480)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.traceKernelEvents(SystemProfilerLogger.java:280)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.runKernelTraceLogging(SystemProfilerLogger.java:63)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.launch.KernelEventTraceLaunchDelegate$1.run(KernelEventTraceLaunchDelegate.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 17:46:30.738
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 17:50:58.484
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 4 4 2019-11-06 18:19:58.684
+!MESSAGE Error waiting for log to be ready. Is the target accessible?
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at com.qnx.tools.ide.utils.target.TargetBinary.receiveResponse(TargetBinary.java:115)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.command(TargetServiceTrace.java:152)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.command(TargetServiceTrace.java:136)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.getStatus(TargetServiceTrace.java:442)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.waitForTimeLog(SystemProfilerLogger.java:480)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.traceKernelEvents(SystemProfilerLogger.java:280)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.runKernelTraceLogging(SystemProfilerLogger.java:63)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.launch.KernelEventTraceLaunchDelegate$1.run(KernelEventTraceLaunchDelegate.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 0 2019-11-06 18:20:55.102
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.qnx.tools.ide.utils.target.QConnSocket.<init>(QConnSocket.java:218)
+	at com.qnx.tools.ide.utils.target.QConnSocket.<init>(QConnSocket.java:166)
+	at com.qnx.tools.ide.utils.target.QConnSocket.<init>(QConnSocket.java:178)
+	at com.qnx.tools.ide.utils.target.TargetBinary.<init>(TargetBinary.java:28)
+	at com.qnx.tools.ide.utils.target.TargetServiceFile.<init>(TargetServiceFile.java:73)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDELaunch.getFileService(QDELaunch.java:193)
+	at com.qnx.tools.ide.qde.debug.core.QDELaunchUtils.getFileService(QDELaunchUtils.java:412)
+	at com.qnx.tools.ide.qde.debug.core.QDELaunchUtils.downloadBinaries(QDELaunchUtils.java:295)
+	at com.qnx.tools.ide.qde.debug.core.QDELaunchUtils.prepareAndDownloadBinaries(QDELaunchUtils.java:242)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$1.doRun(QDELaunchConfigurationDelegate.java:505)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(QDELaunchConfigurationDelegate.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 4 4 2019-11-06 18:23:24.987
+!MESSAGE Error waiting for log to be ready. Is the target accessible?
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at com.qnx.tools.ide.utils.target.TargetBinary.receiveResponse(TargetBinary.java:115)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.command(TargetServiceTrace.java:152)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.command(TargetServiceTrace.java:136)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.getStatus(TargetServiceTrace.java:442)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.waitForTimeLog(SystemProfilerLogger.java:480)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.traceKernelEvents(SystemProfilerLogger.java:280)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.runKernelTraceLogging(SystemProfilerLogger.java:63)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.launch.KernelEventTraceLaunchDelegate$1.run(KernelEventTraceLaunchDelegate.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 18:24:31.351
+!MESSAGE Repairable data format problems
