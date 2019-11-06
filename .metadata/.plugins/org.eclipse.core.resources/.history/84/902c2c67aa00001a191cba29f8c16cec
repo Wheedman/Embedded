@@ -1,0 +1,23 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+#define MILLION  1E6
+
+void waste_msecs (unsigned int msecs){
+	for(int i = 0; i < msecs; i++){
+		oneSecMethod();
+	}
+}
+
+void oneSecMethod(){
+	volatile int zero = 0, one = 1;
+
+}
+
+int main(int argc, char *argv[]) {
+
+
+	printf("Welcome to the QNX Momentics IDE\n");
+	return EXIT_SUCCESS;
+}
+

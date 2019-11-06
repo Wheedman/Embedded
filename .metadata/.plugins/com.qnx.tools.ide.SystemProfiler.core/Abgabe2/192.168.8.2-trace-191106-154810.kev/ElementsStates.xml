@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QProperties>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-4" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-5" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-6" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-7" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-8" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-9" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-10" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-11" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-1-th-12" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-2-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-3-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-3-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-3-th-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-4" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-4-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-5" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-5-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-5-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-5-th-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-5-th-4" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-5-th-5" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-5-th-6" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-5-th-7" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-5-th-8" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-5-th-9" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-6" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-6-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-7" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-7-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-9" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-9-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-10" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-10-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-10-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-10-th-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8203" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8203-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8203-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8203-th-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8203-th-4" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8203-th-5" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8203-th-6" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8204" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8204-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8204-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8205" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8205-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8205-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8206" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8206-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8206-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8206-th-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8206-th-4" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8206-th-5" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8207" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8207-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8208" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8208-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8208-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8208-th-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8208-th-4" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8208-th-5" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-8208-th-6" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45073" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45073-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-40978" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-40978-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45075" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45075-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45075-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45075-th-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45075-th-4" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45075-th-5" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45075-th-6" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45076" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45076-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45076-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45076-th-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45077" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45077-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45077-th-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45078" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45078-th-2" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45078-th-3" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-49175" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-49175-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45080" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-45080-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-49177" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-49177-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-61466" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="pr-61466-th-1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="int-0x12" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="int-0x12 pid-0x2010" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="int-0x44" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+<Property Data="com.qnx.tools.ide.SystemProfiler.ui.panes.ElementsStates$InternalElementStates" Editable="true" Name="int-0x44 pid-0x1" Type="8">
+<InternalElementStates event_labels="false" expanded="false" ipc_labels="false" ipc_lines="false" priority_labels="false" selected="false" state_icons="false" state_labels="false"/>
+</Property>
+</QProperties>

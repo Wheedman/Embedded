@@ -1456,3 +1456,545 @@ java.lang.Exception
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SESSION 2019-11-06 15:43:52.356 -----------------------------------------------
+eclipse.buildId=5.0.0
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2019-11-06 15:44:35.613
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-06 15:44:35.613
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='com.qnx.tools.ide.qde.ui', id='org.eclipse.ui.project.buildAll'
+
+!ENTRY com.qnx.tools.ide.capabilities.ui 4 0 2019-11-06 15:44:41.877
+!MESSAGE activityProfiles.activityRequirementBinding: Invalid activityId com.qnx.tools.ide.capabilities.ui.activity.qnxSystemDeveloper
+
+!ENTRY com.qnx.tools.ide.capabilities.ui 4 0 2019-11-06 15:44:41.893
+!MESSAGE activityProfiles.activityRequirementBinding: Invalid requiredActivityId com.qnx.tools.ide.capabilities.ui.activity.qnxDeveloper
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 15:45:38.326
+!MESSAGE Repairable data format problems
+
+!ENTRY org.eclipse.ui 4 0 2019-11-06 15:45:40.846
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: java.lang.NullPointerException
+	at com.qnx.tools.ide.SystemProfiler.neutrino.core.parser.TraceloggerTraceEventProvider.initializeEventRegistry(TraceloggerTraceEventProvider.java:239)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.core.parser.TraceloggerTraceEventProvider.getTraceEventRegistry(TraceloggerTraceEventProvider.java:228)
+	at com.qnx.tools.ide.SystemProfiler.core.filters.DynamicEventFilter.updateProvider(DynamicEventFilter.java:70)
+	at com.qnx.tools.ide.SystemProfiler.core.filters.StackedTraceFilter.updateProvider(StackedTraceFilter.java:457)
+	at com.qnx.tools.ide.SystemProfiler.ui.filters.ITraceFilterUIManager$Impl.updateProviderForActiveFilter(ITraceFilterUIManager.java:358)
+	at com.qnx.tools.ide.SystemProfiler.ui.filters.ITraceFilterUIManager$Impl.updateProvider(ITraceFilterUIManager.java:350)
+	at com.qnx.tools.ide.SystemProfiler.ui.editor.SystemProfilerEditor.finishEventProviderLoad(SystemProfilerEditor.java:597)
+	at com.qnx.tools.ide.SystemProfiler.ui.editor.SystemProfilerEditor$5$1.run(SystemProfilerEditor.java:516)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 23 more
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 15:46:15.890
+!MESSAGE Repairable data format problems
+
+!ENTRY org.eclipse.jface 2 0 2019-11-06 15:46:25.501
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 15:46:25.501
+!MESSAGE A conflict occurred for CTRL+L:
+Binding(CTRL+L,
+	ParameterizedCommand(Command(com.qnx.tools.ide.SystemProfiler.ui.command.gotoevent,Go To Event,
+		Go to a particular instrumentation event,
+		Category(com.qnx.tools.ide.SystemProfiler.ui.category,System Profiler,System Profiler category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6963b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.qnx.tools.ide.SystemProfiler.ui.context.editor,,,system)
+Binding(CTRL+L,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.goto.line,Go to Line,
+		Go to a specified line of text,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1862525,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 15:46:38.229
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 15:47:50.357
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 15:48:15.490
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 15:48:39.515
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 15:48:57.331
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 15:51:31.261
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 15:56:28.434
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 15:56:48.462
+!MESSAGE Repairable data format problems
+
+!ENTRY org.eclipse.jface 4 0 2019-11-06 15:57:32.092
+!MESSAGE The command ("com.qnx.tools.ide.SystemProfiler.ui.filter") is undefined
+!STACK 0
+java.lang.Exception
+	at org.eclipse.jface.action.ExternalActionManager$CommandCallback.isActive(ExternalActionManager.java:370)
+	at org.eclipse.jface.action.ActionContributionItem.isCommandActive(ActionContributionItem.java:647)
+	at org.eclipse.jface.action.ActionContributionItem.isVisible(ActionContributionItem.java:703)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.reconcileManagerToModel(MenuManagerRenderer.java:891)
+	at org.eclipse.ui.internal.PopupMenuExtender.addMenuContributions(PopupMenuExtender.java:415)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:389)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:343)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:475)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:470)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4881)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4557)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2069)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:257)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4210)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.jface 2 0 2019-11-06 15:58:09.711
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 15:58:09.711
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_RIGHT:
+Binding(CTRL+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(com.qnx.tools.ide.SystemProfiler.ui.command.nextbyselected,Next Event In Selection,
+		Move to next event by selected owner,
+		Category(com.qnx.tools.ide.SystemProfiler.ui.category,System Profiler,System Profiler category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1a18493,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.qnx.tools.ide.SystemProfiler.ui.context.timeline,,,system)
+Binding(CTRL+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.select.wordNext,Select Next Word,
+		Select the next word,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4baf3e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 15:58:09.711
+!MESSAGE A conflict occurred for CTRL+ARROW_LEFT:
+Binding(CTRL+ARROW_LEFT,
+	ParameterizedCommand(Command(com.qnx.tools.ide.SystemProfiler.ui.command.prevevent,Previous Event,
+		Move to previous event,
+		Category(com.qnx.tools.ide.SystemProfiler.ui.category,System Profiler,System Profiler category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7dac02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.qnx.tools.ide.SystemProfiler.ui.context.timeline,,,system)
+Binding(CTRL+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.goto.wordPrevious,Previous Word,
+		Go to the previous word,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@de109f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 15:58:09.711
+!MESSAGE A conflict occurred for CTRL+ARROW_RIGHT:
+Binding(CTRL+ARROW_RIGHT,
+	ParameterizedCommand(Command(com.qnx.tools.ide.SystemProfiler.ui.command.nextevent,Next Event,
+		Move to next event,
+		Category(com.qnx.tools.ide.SystemProfiler.ui.category,System Profiler,System Profiler category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@aa2594,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.qnx.tools.ide.SystemProfiler.ui.context.timeline,,,system)
+Binding(CTRL+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.goto.wordNext,Next Word,
+		Go to the next word,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@11552dd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 15:58:09.711
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_LEFT:
+Binding(CTRL+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(com.qnx.tools.ide.SystemProfiler.ui.command.prevbyselected,Previous Event In Selection,
+		Move to previous event by selected owner,
+		Category(com.qnx.tools.ide.SystemProfiler.ui.category,System Profiler,System Profiler category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@15ca232,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.qnx.tools.ide.SystemProfiler.ui.context.timeline,,,system)
+Binding(CTRL+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.select.wordPrevious,Select Previous Word,
+		Select the previous word,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@f3424a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 15:59:27.614
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 -1 2019-11-06 16:00:08.864
+!MESSAGE Failed to terminate remote QNX process
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to terminate remote process
+	at com.qnx.tools.ide.qde.debug.core.QDELaunchUtils.terminateRemoteProcess(QDELaunchUtils.java:1419)
+	at com.qnx.tools.ide.qde.debug.internal.core.dsf.QDEDSFGDBControl_7_4$1.handleCompleted(QDEDSFGDBControl_7_4.java:129)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:303)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 com.qnx.tools.ide.qde.debug.core 4 0 2019-11-06 16:00:08.864
+!MESSAGE Unable to terminate remote process
+!SUBENTRY 1 com.qnx.tools.ide.qde.debug.core 4 0 2019-11-06 16:00:08.864
+!MESSAGE Unable to terminate remote process
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 -1 2019-11-06 16:00:44.858
+!MESSAGE Failed to terminate remote QNX process
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to terminate remote process
+	at com.qnx.tools.ide.qde.debug.core.QDELaunchUtils.terminateRemoteProcess(QDELaunchUtils.java:1419)
+	at com.qnx.tools.ide.qde.debug.internal.core.dsf.QDEDSFGDBControl_7_4$1.handleCompleted(QDEDSFGDBControl_7_4.java:129)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:303)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 com.qnx.tools.ide.qde.debug.core 4 0 2019-11-06 16:00:44.858
+!MESSAGE Unable to terminate remote process
+!SUBENTRY 1 com.qnx.tools.ide.qde.debug.core 4 0 2019-11-06 16:00:44.858
+!MESSAGE Unable to terminate remote process
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 16:00:56.485
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 -1 2019-11-06 16:01:14.832
+!MESSAGE Failed to terminate remote QNX process
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to terminate remote process
+	at com.qnx.tools.ide.qde.debug.core.QDELaunchUtils.terminateRemoteProcess(QDELaunchUtils.java:1419)
+	at com.qnx.tools.ide.qde.debug.internal.core.dsf.QDEDSFGDBControl_7_4$1.handleCompleted(QDEDSFGDBControl_7_4.java:129)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:303)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 com.qnx.tools.ide.qde.debug.core 4 0 2019-11-06 16:01:14.832
+!MESSAGE Unable to terminate remote process
+!SUBENTRY 1 com.qnx.tools.ide.qde.debug.core 4 0 2019-11-06 16:01:14.832
+!MESSAGE Unable to terminate remote process
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 16:01:46.565
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 16:02:13.320
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 16:02:50.517
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 16:08:00.630
+!MESSAGE Repairable data format problems
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-06 16:18:37.180
+!MESSAGE Indexed 'Abgabe3' (1 sources, 17 headers) in 0,17 sec: 982 declarations; 1.091 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-11-06 16:18:38.055
+!MESSAGE Indexed 'Abgabe3' (1 sources, 17 headers) in 0,09 sec: 982 declarations; 1.115 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.jface 2 0 2019-11-06 16:20:27.079
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 16:20:27.079
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1855c78,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1855c78,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.AddToSVNIgnoreCommand,Add to svn:ignore...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@79effd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 16:20:27.079
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17af558,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17af558,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 16:20:27.079
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1818704,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1818704,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 16:20:27.079
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c73728,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c73728,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 16:20:27.079
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@f62484,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@f62484,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 16:20:27.079
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d789e4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d789e4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 16:20:27.079
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@19e06d7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@19e06d7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 16:20:27.079
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d31f85,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d31f85,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 16:20:27.079
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1ba83dc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1ba83dc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 16:56:24.884
+!MESSAGE Repairable data format problems
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 4 4 2019-11-06 17:23:36.122
+!MESSAGE Error waiting for log to be ready. Is the target accessible?
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at com.qnx.tools.ide.utils.target.TargetBinary.receiveResponse(TargetBinary.java:115)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.command(TargetServiceTrace.java:152)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.command(TargetServiceTrace.java:136)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.getStatus(TargetServiceTrace.java:442)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.waitForTimeLog(SystemProfilerLogger.java:480)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.traceKernelEvents(SystemProfilerLogger.java:280)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.runKernelTraceLogging(SystemProfilerLogger.java:63)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.launch.KernelEventTraceLaunchDelegate$1.run(KernelEventTraceLaunchDelegate.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.qnx.tools.ide.qde.ui 4 0 2019-11-06 17:23:57.957
+!MESSAGE Target is not connected
+
+!ENTRY com.qnx.tools.ide.qde.ui 4 0 2019-11-06 17:24:33.629
+!MESSAGE Target is not connected
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 4 4 2019-11-06 17:29:13.435
+!MESSAGE Error waiting for log to be ready. Is the target accessible?
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at com.qnx.tools.ide.utils.target.TargetBinary.receiveResponse(TargetBinary.java:115)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.command(TargetServiceTrace.java:152)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.command(TargetServiceTrace.java:136)
+	at com.qnx.tools.ide.utils.target.TargetServiceTrace.getStatus(TargetServiceTrace.java:442)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.waitForTimeLog(SystemProfilerLogger.java:480)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.traceKernelEvents(SystemProfilerLogger.java:280)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.SystemProfilerLogger.runKernelTraceLogging(SystemProfilerLogger.java:63)
+	at com.qnx.tools.ide.SystemProfiler.neutrino.ui.logger.launch.KernelEventTraceLaunchDelegate$1.run(KernelEventTraceLaunchDelegate.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.qnx.tools.ide.SystemProfiler.core 2 2 2019-11-06 17:29:47.290
+!MESSAGE Repairable data format problems
