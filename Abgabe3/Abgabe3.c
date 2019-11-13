@@ -29,7 +29,7 @@ void waste_msecs(unsigned int msecs) {
 void* function(void* arg) {
 	struct timespec start, stop;
 	int s, ms, i;
-	usleep(100000);
+
 	for (i = 0; i < 10; i++) {
 		if (clock_gettime(CLOCK_REALTIME, &start) == -1) {
 			perror("clock gettime");
@@ -43,11 +43,13 @@ void* function(void* arg) {
 			return (void *) EXIT_FAILURE;
 		}
 
+		usleep(100000);
+
 		s = (stop.tv_sec - start.tv_sec) * 1000;
 		ms = (stop.tv_nsec - start.tv_nsec) / MILLION;
 
-		printf("start: %ld, n %ld \n", start.tv_sec, start.tv_nsec);
-		printf("stop: %ld, n %ld \n", stop.tv_sec, stop.tv_nsec);
+		printf("start: %d, n %lu \n", start.tv_sec, start.tv_nsec);
+		printf("stop: %d, n %lu \n", stop.tv_sec, stop.tv_nsec);
 		printf("Waited miliseconds: %d\n", s + ms);
 	}
 	return EXIT_SUCCESS;
@@ -62,25 +64,30 @@ int main(int argc, char *argv[]) {
 	param.sched_priority = sched_get_priority_max(SCHED_FIFO);
 
 	pthread_attr_init(&attr);
-	pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
+	pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
 	pthread_attr_setschedparam(&attr, &param);
 
 	err = pthread_attr_setinheritsched(&attr, PTHREAD_EXPLICIT_SCHED);
 
 	if (err != 0) {
-		printf("pthread_attr_setinheritsched: %d ", strerror(err));
+		printf("pthread_attr_setinheritsched: %s ", strerror(err));
 	}
 
 	err = pthread_create(&thread_one, &attr, &function, NULL);
 
 	if (err != 0) {
-		printf("pthread_create: %d ", strerror(err));
+		printf("pthread_create: %s ", strerror(err));
 	}
 
 	pthread_attr_getschedparam(&attr, &param);
 
 	printf("Thread Priority: %d\n", param.sched_priority);
 
+	err = pthread_join(thread_one, NULL);
+
+	if (err != 0) {
+		printf("pthread_create: %s ", strerror(err));
+	}
 	//function(NULL);
 
 	return EXIT_SUCCESS;
