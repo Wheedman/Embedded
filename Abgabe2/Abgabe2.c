@@ -10,10 +10,17 @@
 #include <sys/neutrino.h>
 
 #define MILLISECONDS_PER_SECOND  1E6
-#define TIME_TO_WAIT 1000000
+#define TIME_TO_WAIT 1000000 //1ms
 
 struct timespec rqtp, start, stop;
 
+/*
+ * Prints current frequency of system tick
+ * Changes system tick to nanosecs
+ * Prints new frequency of system tick
+ * System tick indicates the frequency how oft the cpu is interrupted from the clock
+ * Minimal value is 10 microseconds
+ */
 int changeSystemTick(unsigned int nanosecs) {
 
 	struct _clockperiod new, old;
@@ -44,6 +51,14 @@ int changeSystemTick(unsigned int nanosecs) {
 
 }
 
+/* 
+ * Simulates a cycle of TIME_TO_WAIT
+ * Get current time with clock_gettime
+ * For initialization setStart = 1
+ * To simulate an ongoing cycle setStart = 0 for every iteration
+ * Add TIME_TO_WAIT to the start time
+ * With clock_nanosleep the programm sleeps until TIME_TO_WAIT is over
+ */
 int takt(int setStart) {
 	//struct timespec ;
 	int s;
@@ -83,6 +98,11 @@ int takt(int setStart) {
 	return EXIT_SUCCESS;
 }
 
+/*
+ * Set system tick
+ * Simulate ongoing cycle of 1ms
+ * Print the waited miliseconds, check continuity of the results
+ */
 int main(int argc, char** argv) {
 	//sleep(3);
 	changeSystemTick(1 * MILLISECONDS_PER_SECOND);
@@ -105,3 +125,17 @@ int main(int argc, char** argv) {
 		printf("Waited miliseconds: %d\n", s + ms);
 	return EXIT_SUCCESS;
 }
+
+/*
+Bei überprüfung des Codes mit dem Kernel Event tracer ist zu sehen 
+dass bei einer durchführung mit system takt mit >=1ms
+durch den simulierten takt immer 1ms schläft.
+
+Wenn der system takt <1ms wird auch der simulierte takt dem system takt
+ angepasst wird, da nur alle zb 4ms ein interrupt passiert durch den
+ sheduler und das Progrmm nur bei einem interrupt aufwachen kann.
+
+Da er nur eine ms hätte schlafen sollen, liegt die aufwachszeit der nächstern
+x iterationen in der vergangenheit und geht nur kurz in dem sleep wo dies dann
+bemerkt wird und er wieder aufwacht.
+*/
