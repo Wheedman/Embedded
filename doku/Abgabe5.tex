@@ -1,0 +1,192 @@
+\documentclass[12pt,a4paper,bibliography=totocnumbered]{scrartcl}
+\usepackage[ngerman]{babel}
+
+\usepackage{graphicx}
+\usepackage{geometry}
+%\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[pdfpagelabels=true]{hyperref}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage[T1]{fontenc}
+
+\definecolor{mGreen}{rgb}{0,0.6,0}
+\definecolor{mGray}{rgb}{0.5,0.5,0.5}
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+\definecolor{amber}{rgb}{1.0, 0.49, 0.0}
+\definecolor{coolgrey}{rgb}{0.55, 0.57, 0.67}
+\definecolor{davy}{rgb}{0.33, 0.33, 0.33}
+\definecolor{backgroundColour}{rgb}{0.95,0.95,0.95}
+
+\lstdefinestyle{CStyle}{
+    backgroundcolor=\color{backgroundColour},   
+    commentstyle=\color{davy},
+    keywordstyle=\color{amber},
+    numberstyle=\tiny\color{mGray},
+    stringstyle=\color{airforceblue},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=C
+}
+
+\geometry{a4paper, top=27mm, left=25mm, right=25mm, bottom=35mm, headsep=10mm, footskip=12mm}
+
+\makeatletter
+\renewcommand\@biblabel[1]{}
+\makeatother
+%__________________________________________________________________
+
+\begin{document}
+
+%\titlespacing{\section}{0pt}{12pt plus 4pt minus 2pt}{-6pt plus 2pt minus 2pt}
+
+% Kopf- und Fusszeile
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{\arabic{section}.\ #1}}
+\renewcommand{\leftmark}{}
+\fancyhf{}
+\lhead{}
+\chead{}
+\rhead{\thesection\space\contentsname}
+\lfoot{Abgabe 5}
+\cfoot{}
+\rfoot{\ \linebreak  \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+%______________________________________________________________________
+
+
+%______________________________________________________________________
+
+\clearpage
+
+% Arabische Seitenzahlen
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Geändertes Format für Seitenränder, arabische Seitenzahlen
+\fancyhead[LE,RO]{\rightmark}
+%\fancyhead[LO,RE]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
+%______________________________________________________________________
+
+\section*{Abgabe 5}
+
+\begin{lstlisting}[style=CStyle]
+#include <stdlib.h>
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <string.h>
+#include <unistd.h>
+
+const char * path = "/dev/leds";
+
+/**
+* Ausgabe eines Bytes in binaer Form.
+*/
+void printBinary(char * name, char toBinary) {
+	int i;
+	printf("%s :", name);
+	for (i = 0; i < 8; i++) {
+		printf("%d", !!((toBinary << i) & 0x80));
+	}
+	printf("\n");
+}
+
+/**
+* Beschreiben des LED Pin von BBC mit Binaercodierung.
+*/
+void writeLEDs(char buffer) {
+	int fileDescritpion = open(path, O_WRONLY, S_IWUSR);
+
+	if (fileDescritpion == -1) {
+		printf("open: %s ", strerror(errno));
+	}
+	int writeSize = write(fileDescritpion, &buffer, sizeof(buffer));
+
+	if (writeSize == -1) {
+		printf("write: %s ", strerror(errno));
+	}
+	close(fileDescritpion);
+}
+
+/**
+* Warten auf Usereingabe mit Dialog zum Setzten der ersten beiden LED's.
+* OR und XOR Funktion fuer andere beiden LED's basierend auf Werten von LED 1 und 2.
+* Zusammensetzen der LED Binaercodierung in einem Byte mittels Binaerverschiebung.
+* Schreibaufruf.
+*/
+int main(int argc, char *argv[]) {
+
+	int input;
+	while (1) {
+
+		printf("Enter led1: ");
+		input = getchar();
+		while (getchar() != '\n') {
+			;
+		}
+
+		char led1 = (char) (input - '0');
+		printBinary("led1", led1);
+
+		printf("Enter led2: ");
+		input = getchar();
+		while (getchar() != '\n') {
+			;
+		}
+		char led2 = (char) (input - '0');
+		printBinary("led2", led2);
+
+		char led3 = led1 | led2;
+		printBinary("led3", led3);
+
+		char led4 = led1 ^ led2;
+		printBinary("led4", led4);
+
+#if 0
+		led4 = led4 << 1;
+		led4 = led4 | led3;
+		led4 = led4 << 1;
+		led4 = led4 | led2;
+		led4 = led4 << 1;
+		led4 = led4 | led1;
+#else
+		led4 = led4 << 3 | led3 << 2 | led2 << 1 | led1;
+#endif
+		writeLEDs(led4);
+		printf("\n");
+	}
+
+	return EXIT_SUCCESS;
+}
+\end{lstlisting}
+%______________________________________________________________________
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
